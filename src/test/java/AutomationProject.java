@@ -25,6 +25,7 @@ public class AutomationProject {
         //Fill out the form with the required info
         Faker faker = new Faker();
 
+
         String firstName = faker.name().firstName();
         String lastName = faker.name().lastName();
         String email = faker.internet().emailAddress();
@@ -90,6 +91,7 @@ public class AutomationProject {
          driver.findElement(By.id("rafael")).sendKeys(Keys.ENTER);
          Thread.sleep(1000);
          Assert.assertEquals(driver.getCurrentUrl(), "http://duotify.us-east-2.elasticbeanstalk.com/register.php");
+
 
 
 
