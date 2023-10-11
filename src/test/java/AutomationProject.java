@@ -93,7 +93,7 @@ public class AutomationProject {
 
 
 
-
+        driver.quit();
 
 
 
